@@ -1,11 +1,18 @@
+body {
+    background-color: #fffff6;
+}
+
 #navbardropdown {
     background-color: #0184ff;
     box-shadow: 5px 10px black;
+    border-radius: 0px;
+    margin-top: 18px;
 }
 
 #navbarbrand {
     font-family: 'Teko', sans-serif;
     font-size: 28pt;
+    padding-top: 12px;
 }
 
 #dropdowndivider {
@@ -15,6 +22,7 @@
 #navbardropdownfonts {
     font-family: 'Teko', sans-serif;
     font-size: 18pt;
+    padding-right: 25px;
 }
 
 #navbardropdownfonts div {
@@ -22,21 +30,63 @@
     font-size: 14pt;
 }
 
+#navbardropdownfonts li {
+    padding-right: 25px;
+}
+
 #navbarthings {
     background-color: #0184ff;
     box-shadow: 5px 10px black;
     border-color: black;
+    padding-right: 5px;
 }
 
-@media (max-width: 600px) {
+#footerthings {
+    font-family: 'Teko', sans-serif;
+    font-size: 16pt;
+    background-color: #0184ff;
+    position: absolute;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#footerthings p {
+    padding-top: 18px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+@media (max-width: 991px) {
     #navbardropdown {
         box-shadow: 0px 0px;
+        border-radius: 5px;
+        margin:1px;
     }
 
     #navbarbrand {
         font-family: 'Teko', sans-serif;
         font-size: 16pt;
     }
-    
+
+    #footerthings {
+        font-family: 'Teko', sans-serif;
+        font-size: 12pt;
+        position: absolute;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        z-index: -10;
+    }
+
+    #footerthings p {
+        padding-top: 8px;
+        padding-left: 8px;
+        margin: 10px;
+        text-align: left;
+    }
+
 }
 
