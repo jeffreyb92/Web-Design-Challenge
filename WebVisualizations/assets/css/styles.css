@@ -30,16 +30,13 @@
 
 @media (max-width: 600px) {
     #navbardropdown {
-        background-color: #0184ff;
+        box-shadow: 0px 0px;
     }
 
     #navbarbrand {
         font-family: 'Teko', sans-serif;
         font-size: 16pt;
     }
-
-    #navbarthings {
-        background-color: #0184ff;
-    }
+    
 }
 
