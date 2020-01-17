@@ -1,0 +1,45 @@
+#navbardropdown {
+    background-color: #0184ff;
+    box-shadow: 5px 10px black;
+}
+
+#navbarbrand {
+    font-family: 'Teko', sans-serif;
+    font-size: 28pt;
+}
+
+#dropdowndivider {
+    border-color: black;
+}
+
+#navbardropdownfonts {
+    font-family: 'Teko', sans-serif;
+    font-size: 18pt;
+}
+
+#navbardropdownfonts div {
+    font-family: 'Teko', sans-serif;
+    font-size: 14pt;
+}
+
+#navbarthings {
+    background-color: #0184ff;
+    box-shadow: 5px 10px black;
+    border-color: black;
+}
+
+@media (max-width: 600px) {
+    #navbardropdown {
+        background-color: #0184ff;
+    }
+
+    #navbarbrand {
+        font-family: 'Teko', sans-serif;
+        font-size: 16pt;
+    }
+
+    #navbarthings {
+        background-color: #0184ff;
+    }
+}
+
