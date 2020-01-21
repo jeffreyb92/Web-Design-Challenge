@@ -33,10 +33,6 @@ img {
     background-color: #5888cc;
 }
 
-#datapad {
-        padding: 25px;
-        background-color: #5888cc;
-}
 
 /* Navbar Things */
 #navbarthings {
@@ -138,7 +134,7 @@ img {
         margin-bottom: 65px;
     }
 
-    #datapad {
+    #columnpad {
         margin-top: 35px;
     }
 
