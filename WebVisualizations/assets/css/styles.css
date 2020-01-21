@@ -1,7 +1,7 @@
 /* Body Things */
 
 body {
-    background-color: #fffff6;
+    background-color: #eaeaea;
 }
 
 /* Container Things */
@@ -11,32 +11,31 @@ body {
 }
 
 img {
-    float: left;
     margin-right: 30px;
 }
+
 .sectionfont {
     font-family: 'Teko', sans-serif;
-    font-size: 24pt;
-}
-
-.purple {
-    background-color: purple;
-}
-
-.red {
-    background-color: red;
+    font-size: 30pt;
+    color: #060606;
 }
 
 #columnpad {
     padding: 25px;
-    background-color: #fff8d9;
+    background-color: #5888cc;
 }
 
 
 /* Navbar Things */
+#navbarthings {
+    background-color: #386db9;
+    box-shadow: 5px 10px black;
+    border-color: black;
+    padding-right: 5px;
+}
 
 #navbardropdown {
-    background-color: #0184ff;
+    background-color: #386db9;
     box-shadow: 5px 10px black;
     border-radius: 0px;
     margin-top: 18px;
@@ -67,19 +66,13 @@ img {
     padding-right: 25px;
 }
 
-#navbarthings {
-    background-color: #0184ff;
-    box-shadow: 5px 10px black;
-    border-color: black;
-    padding-right: 5px;
-}
 
 /* Footer Things */
 
 #footerthings {
     font-family: 'Teko', sans-serif;
     font-size: 16pt;
-    background-color: #0184ff;
+    background-color: #386db9;
     position: fixed;
     left: 0;
     bottom: 0;
