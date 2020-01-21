@@ -131,11 +131,15 @@ img {
         margin-bottom: 65px;
     }
 
-    #columnpad {
-        margin-top: 15px;
-        background-color: #5888cc;
-        margin-left: 15px;
-        margin-right: 15px;
+    .chart-container {
+        padding-left: 15px;
+        padding-right: 15px;   
+        margin-top: 35px;
+        margin-bottom: 65px;
+    }
+
+    #datapad {
+        margin-top: 35px;
     }
 
 }
